@@ -1,0 +1,34 @@
+{
+  "name": "forooms",
+  "version": "0.1.0",
+  "description": "Forooms is a service designed to provide a private and intuitive way of communication between students.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaciejkaG/forooms"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@formatjs/intl-localematcher": "^0.5.5",
+    "@types/negotiator": "^0.6.3",
+    "negotiator": "^1.0.0",
+    "next": "15.0.0",
+    "react": "19.0.0-rc-65a56d0e-20241020",
+    "react-dom": "19.0.0-rc-65a56d0e-20241020"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
