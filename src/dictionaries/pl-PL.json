@@ -1,5 +1,19 @@
 {
     "landing": {
-        "subtitle": "Dla uczniów, od uczniów."
+        "subtitle": "Dla uczniów, od uczniów.",
+        "features": [
+            {
+                "title": "Fora",
+                "description": "Bierz udział w dyskusjach poprzez otwieranie i komentowanie wątków tematycznych."
+            },
+            {
+                "title": "Pokoje",
+                "description": "Komunikuj się prywatnie ze znajomymi z klasy poprzez oddzielone pokoje."
+            },
+            {
+                "title": "Czaty",
+                "description": "Pisz i wysyłaj media do znajomych poprzez wiadomości prywatne lub grupowe."
+            }
+        ]
     }
 }

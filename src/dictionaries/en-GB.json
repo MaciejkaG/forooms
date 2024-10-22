@@ -1,5 +1,19 @@
 {
     "landing": {
-        "subtitle": "For students, from students."
+        "subtitle": "For students, from students.",
+        "features": [
+            {
+                "title": "Forums",
+                "description": "Take part in discussions through opening and commenting threads."
+            },
+            {
+                "title": "Rooms",
+                "description": "Privately communicate with your classmates with the help of different rooms."
+            },
+            {
+                "title": "Chats",
+                "description": "Chat and share media with your friends through direct messages or group chats."
+            }
+        ]
     }
 }

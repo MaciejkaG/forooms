@@ -6,7 +6,7 @@ interface Props {
 
 export default function Button({ children }: Props) {
     return (
-        <button>
+        <button >
             {children}
         </button>
     );

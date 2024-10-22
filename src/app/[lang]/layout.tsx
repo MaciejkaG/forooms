@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Outfit, Noto_Sans } from 'next/font/google';
+import { UserProvider } from '@auth0/nextjs-auth0/client';
 import './globals.css';
 
 const outfit = Outfit({
@@ -26,11 +27,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${outfit.variable} ${notoSans.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <UserProvider>
+        <body
+          className={`${outfit.variable} ${notoSans.variable} antialiased`}
+        >
+          {children}
+        </body>
+      </UserProvider>
     </html>
   );
 }
