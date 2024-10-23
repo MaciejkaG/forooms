@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
+import Button from '@/components/Button';
 import { getDictionary, locale } from '@/lib/dictionaries';
 
 interface PageProps {
@@ -23,8 +24,9 @@ function FeatureCard(props: FeatureCardProps) {
 }
 
 export default async function Home({ params }: PageProps) {
-  const { lang } = await params;  // Await `params`
+  const { lang } = await params;
   const dict = await getDictionary(lang);
+
   return (
     <div>
       <div className='z-[-1] absolute w-full h-[200%] top-0 left-0 bg-gradient-landing flex flex-col justify-center items-center'></div>
@@ -36,8 +38,8 @@ export default async function Home({ params }: PageProps) {
             <FeatureCard key={i} title={feature.title} description={feature.description} />
           ))}
         </div>
+        <Button href='/api/auth/login'>{dict.landing.login}</Button> {/* Use router.push */}
       </div>
     </div>
-    
   )
 }

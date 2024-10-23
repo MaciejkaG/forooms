@@ -14,6 +14,7 @@
                 "title": "Chats",
                 "description": "Chat and share media with your friends through direct messages or group chats."
             }
-        ]
+        ],
+        "login": "Log in"
     }
 }

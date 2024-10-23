@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html>
       <UserProvider>
         <body
           className={`${outfit.variable} ${notoSans.variable} antialiased`}

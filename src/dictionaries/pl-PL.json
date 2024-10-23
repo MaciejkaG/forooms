@@ -14,6 +14,7 @@
                 "title": "Czaty",
                 "description": "Pisz i wysyłaj media do znajomych poprzez wiadomości prywatne lub grupowe."
             }
-        ]
+        ],
+        "login": "Zaloguj się"
     }
 }
